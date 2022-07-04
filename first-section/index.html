@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-stact-with Anjela Yul</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- 
+        important notes:
+        Do you remember how yahoo looks like when it firs lunched?
+        check on it with the following address inside Google.com:
+        archive.org. from there you can search anysite you want to see
+    
+        we'll be building John clein wesite
+        1. project of <h1> with patterson, two <p> with decription
+        2. course i teach on <ol>
+        3. hobbies on external page <a> link
+        4. adding an images
+        5. external contact us page
+        6. work experienced with <h3> and <p>, that has seperated date
+        7. correct the experince with tables
+        8. putting the image to left and the descriptions at right
+        9. adding space to our table using cell-spacing
+        10. excercise create a tale containig the following with spaces eas
+          a. Skills, b. emoji showing the rate from 1-5 star. c. [window + .]
+        11. soutiont to the excercise
+        12. adding a form inside contact-me
+        
+        13.
+        hosting our website, this can be done on godaddy, blue host, but we're still learning we dont have pay for this.
+         we are going to be hosting our website on github, although we'll talk about it allots later
+         steps:
+         1. create and and verify account on github.com
+         2. click on the + to create new repository
+         3. give your repository any name you like ie name of your project
+         4. you can add description if you wish. leave other aspects as they're and add read me, then click on create repository
+         5. go ahead and add file or upload file
+         6. after uploading your codes go ahead and give comment changes
+         7 if you head over to settings > pages activate our repository by selecting main from branch
+         8. then go ahead and save your work
+
+         14. Introduction to CSS: 
+         css syntax and selectors 
+         using tag, class, id, pseudo selectors
+         why css, what is css
+        ways to add css in our website
+        (a) inline css
+        (b)  internal/embeded css
+        (c) external css.
+        our prefered documentation is going to be mdn
+        => how to find a beautiful color parlet is by heading into: colorhunt.co.
+        there you can add your own hex color.
+
+        => learn to make a research.
+        adding css color with the name not the hex value. css color online using mdn
+
+        insternal css => style tag below
+
+        External Css
+     -->
+     <style>
+         /* body {
+             background-color: #EAF6f6;
+         } */
+         
+         /* changing the style of the hr */
+         /* hr { */
+             /* background-color: white; */
+
+             /* notice that ntin changes why?
+             well it's really important to know that no website is completely unstyled, what does that mean?
+             there's always a defult style applied by your browser how?
+             go to your browser and search for browser default css, follow w3school. search for the hr.
+             clearly you'll see border-style: inset; what does it mean? well it makes an element looks embeded.
+             let's change it
+             */
+             /* border-style: none; */
+             /* 
+             actually every in your web dev is a whole bonch boxes. and this boxes can be affected by changing the css codes. we're going to be using what is called pesticide to view this by using this link to add it
+             https://chrome.google.com/webstore/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi.
+             => then go to the three dots and go to chrome setings => extensions => find the pesicide => details => allow acees to file URLs => click on
+             pesticide icon to pin it if u like.
+
+             now for us to solve this problem we're going to give it a height
+
+             */
+             /* height: 2px; */
+
+             /* adding a width */
+
+             /* width: 100px; */
+
+             /*using % is the best in this aspect as it adjust it's self just as we increase or reduce the scree */
+             /* width: 30%; */
+
+             /*canging the looking of the hr*/
+             /* border-style: dotted; */
+             /* change the looking out of double. */
+             /* height: 0;
+             border-style: none;
+             border-top-style: dotted; */
+             /* or */
+            /* border-style: dotted none none; */
+
+            /* chaning it's color */
+            /* border-color: grey;
+            border-width: 5px; */
+
+            /* change the width */
+            /* width: 5%; */
+            /* now remove the background-color */
+        
+/* now check all this, did they affect other pages like, contact and hobbies?
+no right that's where the external css comes into play
+*/
+
+         /* }
+         img {
+             border-radius: 50%;
+         } */
+     </style>
+<body>
+
+
+    <table cellspacing="20">
+        <tr>
+            <td><img src="images/mypix.jpg" alt="Patterson Chinedum"></td>
+            <td>
+                <h1>Patterson ❤</h1>
+                <p><i>Founder and of <a href="#"><strong>CEO of PatternCodding <em>Tech</em></strong></a></i></p>
+                <p>I am data scientist, web developer and &#9829; Jesus Christ</p>
+            </td>#9829
+        </tr>
+    </table>
+    <hr>
+
+
+
+     <!-- don't add the images yet -->
+     <!-- <img src="images/mypix.jpg" alt="Patterson Chinedum" width="50">
+     <h1>Patterson</h1> -->
+     <!-- now do we italasize our text, and there are two ways
+    to do that, they are i and em tag, we can add strong tag as well 
+    -->
+     <!-- <p><i>Founder and of <a href="#"><strong>CEO of PatternCodding <em>Tech</em></strong></a></i></p>
+     <p>I am data scientist, web developer and &#9829; Jesus Christ</p>
+     <hr> -->
+     <!-- adding courses am teaching -->
+     <h3>courses i teach:</h3>
+     <!-- using list -->
+     <ul>
+         <li>HTML and CSS</li>
+         <li>Javascript and Jquery</li>
+         <li>React and Node</li>
+         <li>Git, Github and Version Control</li>
+         <li>SQL and MongoDB or Mysql</li>
+         <li>Python and Django</li>
+         <li>Data-Science and Machine learning with python or R</li>
+     </ul>
+     <hr> 
+     <!-- <h3>My hobbies</h3>
+     <ol> -->
+         <!-- excercise go ahead and add links to ur hobbies -->
+         <!-- <li><a href="https://essentialworship.com/?gclid=Cj0KCQjw06OTBhC_ARIsAAU1yOUpCQh7tkdViBvmF8BAizBVCXuKaElVbxxffsmaYHbdT6cVCA20gdUaAm8eEALw_wcB">Worship</a></li>
+         <li>Programming</li>
+         <li>Football/soccer</li>
+         <li>Movies</li>
+     </ol> -->
+     <a href="hobbies.html">my hobbies</a> <br>
+     <!-- how to incoopeate image into our website
+    this should be added just above our h1 tag.
+
+    which after that a link will follow from the title.
+
+    now let's create a link that link to our hobby sections.
+
+    now create another link that says contac me
+    -->
+    <a href="contact.html">contact me!</a>
+
+    <!-- another section on work ecperience that has dates in it -->
+    <!-- <h3>Work experiences!</h3>
+    <p>worked at tech 24 in 2021 at ikeja lagos Nigeria</p>
+    <p>worked at Geekie-isolution from 2019-2021 in ebonyi state Nigeria</p>
+    <p>currently teaching and CEO of PatternCodding Tech Academy</p> -->
+<!-- 
+    well as u can see it's not in other, like not seperated as it should
+    sepereta work experience and seperate dates.
+    therefore the best practice is by using table
+ -->
+<table>
+ <h3>Hobbies</h3>
+ <tr>
+    <th>Date</th>
+    <th>work</th>
+ </tr>
+     <tr>
+         <td>2021-2021</td>
+         <td>worked at tech 24 at ikeja lagos Nigeria</td>
+    </tr>
+    <tbody>
+     <tr>
+     <td>2019-2021</td>
+     <td>worked at Geekie-isolution from 2019-2021 in Ebonyi state Nigeria</td>
+    </tr>
+    </tbody>
+
+    <tfoot>
+     <tr>
+         <td>2019----</td>
+         <td>currently teaching and CEO of PatternCodding Tech Academy</td>
+     </tr>
+    </tfoot>
+ </table>
+<!-- let's try put our images on the left then our text on the right, this should be done top of our program
+we're going to be uisng table.
+
+creating skills table with star emoji to rate my performance on them
+-->
+<hr>
+<table cellspacing="20">
+    <h3>Skill</h3>
+    
+       <tr>
+                <td>HTML and css ⭐⭐⭐⭐⭐</td>
+       </tr>
+       <tr>
+                <td>Javascript ⭐⭐⭐⭐⭐</td>
+       </tr>
+       <tr>
+                <td>Jquery ⭐⭐⭐</td>
+       </tr>
+       <tr>
+                <td>Git ⭐⭐</td>
+       </tr>
+       <tr>
+                <td>Bootsrap ⭐⭐⭐</td>
+       </tr>
+       <tr>
+                <td>ReactJs ⭐⭐⭐⭐⭐</td>
+       </tr>
+       <tr>
+                <td>NodeJs ⭐⭐⭐⭐⭐</td>
+       </tr>
+       <tr>
+                <td>SQL ⭐⭐⭐⭐⭐</td>
+       </tr>
+       <tr>
+                <td>Python ⭐⭐⭐⭐⭐</td>
+       </tr>
+       <tr>
+                <td>Data-Science ⭐⭐⭐⭐⭐</td>
+       </tr>
+       <tr>
+                <td>Machine learning ⭐⭐⭐⭐⭐</td>
+
+       </tr>
+</table>
+<hr>
+</body>
+</html>

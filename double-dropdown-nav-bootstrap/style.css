@@ -1,0 +1,126 @@
+html, body header{
+    height: 150vh;
+    font-family: 'josefin sans' , sans-serif;
+    scroll-behavior: smooth;
+}
+.view {
+    height: 100%;
+    background: url(images/capitol.jpg) no-repeat center;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.view h2 {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+.fixed-top {
+    padding: 20px 0 20px 8px;
+}
+.fixed-top .navbar-nav li a{
+    font-size: 19px;
+    color: white !important;
+    transition: .5s ease-in-out;
+}
+.fixed-top .navbar-nav li a:hover{
+    color: yellow !important;
+}
+@media screen and (max-width:768px) {
+    .navbar-dark{
+        background-color: orange !important;
+    }
+       
+}
+
+#main-bar {
+    position: absolute;
+    width: 100%;
+    top: 13%;
+    position: fixed;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+#main-bar .nav-item {
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+#main-bar .navbar-nav li a:hover {
+    color: aqua;
+
+}
+/* horizontal */
+.vavbar-nav {
+    position: relative;
+}
+.dropdown-menu {
+    margin-right: -1000px;
+}
+.dropdown-menu > li {
+    display: inline-block;
+}
+
+/* cards */
+
+
+.wrapper {
+    padding-top: 120px;
+}
+
+.card-img-top {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    text-align: center;
+    box-shadow: 0px 15px 15px -8px rgba(0, 0, 0, 0.5)
+}
+
+.card-body h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: deeppink;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.socials a i {
+    color: #fff;
+    padding: 6px 0;
+}
+
+.socials a:nth-child(1) {
+    background: #3b5998;
+}
+
+.socials a:nth-child(2) {
+    background: #ff0000;
+}
+
+.socials a:nth-child(3) {
+    background: #007bb5;
+}
+
+.socials a:nth-child(4) {
+    background: #ea4c89;
+}
+
+@media (max-width: 800px) {
+    .mx-30 {
+        margin-bottom: 30px;
+    }
+}

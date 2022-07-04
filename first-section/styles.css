@@ -1,0 +1,23 @@
+ body {
+     background-color: #EAF6f6;
+ }
+ hr {
+     border-style: none;
+     border-top-style: dotted;
+     border-color: grey;
+     border-width: 5px;
+     width: 5%;
+ }
+ h1 {
+     color: aqua;
+ }
+ h2 {
+     color: aqua;
+ }
+ h3 {
+     color: aqua;
+ }
+ img {
+    width: 100px;
+     border-radius: 50%;
+ }
